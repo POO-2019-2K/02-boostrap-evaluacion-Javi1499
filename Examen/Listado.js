@@ -13,7 +13,7 @@ export default class Listado {
 
 
     addEmployee(renta){
-        this._diasRenta = renta.getDias()++;
+        this._diasRenta = renta.getDias()+ 1;
         let row = this._tableListado.insertRow(-1);
         let cellPlaca = row.insertCell(0);
         let cellInicioRenta = row.insertCell(1);
